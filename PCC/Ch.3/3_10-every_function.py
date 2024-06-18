@@ -153,16 +153,67 @@ print('------------------------------------\n')
 
 # Removing an Item by Value
 
+print("Removing an Item by Value.\n")
+
+print(f"Here is the current backlog_games list: {backlog_games}\n")
+
+removing_game = 'wo long: fallen dynasty'
+backlog_games.remove(removing_game)
+
+print("Let's remove " + removing_game + ".\n")
+
+print(f"Updated backlog_games list: {backlog_games}.\n")
+
+print(f"Maybe I will revisit this game {removing_game.title()} later.")
+
+print('------------------------------------\n')
+
 # Sorting a List Permanently with the sort() Method
 
+print("Sorting a List Permanently with the sort() Method.\n")
+
+print(f"Unsorted: {backlog_games}.\n")
+
+backlog_games.sort()
+
+print(f"Sorted: {backlog_games}.\n")
+
+backlog_games.sort(reverse=True)
+
+print(f"Reverse Sorting: {backlog_games}.\n")
+
+backlog_games.sort()
+
+print('------------------------------------\n')
+
 # Sorting a List Temporarily with the sorted() Function
+print("Sorting a List Temporarily with the sorted() Function.\n")
+
+print(f"Original list: {backlog_games}.\n")
+
+print("Here is the sorted version: \n")
+print(sorted(backlog_games))
+
+print("\nHere is the reverse sorted version: \n")
+print(sorted(backlog_games, reverse=True))
+
+print('------------------------------------\n')
 
 # Printing a List in Reverse Order
+print("Printing a List in Reverse Order.\n")
+
+print(f"Current backlog_games list: {backlog_games}.\n")
+
+backlog_games.reverse()
+
+print(f"Reverse list: {backlog_games}.\n")
+
+print('------------------------------------\n')
 
 # Finding the Length of a List
-# print("Finding the Length of a List: \n")
+print("Finding the Length of a List: \n")
 
-# print(f"Here is the length of the list: {len(backlog_games)}.\n")
+print(f"Here is the length of the list: {len(backlog_games)}.\n")
 
-# print('------------------------------------')
+print('------------------------------------\n')
 
