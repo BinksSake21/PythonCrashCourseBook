@@ -6,5 +6,5 @@ print(min(numbers))
 
 print(max(numbers))
 
-print(sum(numbers))
 # Use the sum() function to see how quickly Python can add a million numbers.
+print(sum(numbers))
