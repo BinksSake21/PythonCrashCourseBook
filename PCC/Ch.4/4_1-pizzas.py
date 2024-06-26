@@ -7,4 +7,4 @@ for pizza in favorite_pizzas:
     print(f"I like {pizza} pizza.")
 
 # Add a line at the end of your program, outside the for loop, that states how much you like pizza.
-print("I really over pizza!")
+print("I really love pizza!")
