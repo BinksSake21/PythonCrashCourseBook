@@ -71,3 +71,24 @@ print(answer<=26)
 print("\nIs answer>=26? I predict False.")
 print(answer>=26)
 
+age_0 = 22
+age_1 = 18
+
+print("\nIs age_0>=21 and age_1>=21? I predict False.")
+print(age_0>=21 and age_1>=21)
+
+age_1 = 22
+
+print("\nIs age_0>=21 and age_1>=21? I predict True.")
+print(age_0>=21 and age_1>=22)
+
+age_0 = 22
+age_1 = 18
+
+print("\nIs age_0>=21 or age_1>=21? I predict True.")
+print(age_0>=21 or age_1>=21)
+
+age_0 = 18
+
+print("\nIs age_0>=21 or age_1>=21? I predict False.")
+print(age_0>=21 or age_1>=21)
